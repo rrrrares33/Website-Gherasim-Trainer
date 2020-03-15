@@ -1,0 +1,18 @@
+main table{
+    color: lightgrey;
+    border-color: azure;
+    padding-bottom: 3em;
+    text-indent: 4em;
+    position: relative;
+    text-align: center;
+}
+main table caption,thead,tr{
+    padding: 1em;
+}
+main ul a {
+    color:lightgray;
+    text-decoration: underline;
+}
+#Contact p{
+    text-indent: 5em;
+}
