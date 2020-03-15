@@ -5,6 +5,7 @@ body {
 nav {
     display: inline-block;
     width: 100%;
+    margin: 0;
     vertical-align:top;
     overflow: hidden;
     background-color: #525151; 
@@ -27,13 +28,14 @@ nav ul li {
   float: right;
   list-style-type: none;
   text-decoration: none;
-  display: inline;
+  display: inline-block;
 }
 
 nav ul li a {
   color:black;
-  background: #525151; 
+  text-decoration: underline;
   padding: 1em;
+  background: #525151;
   transition: background 1s linear;
 }
 
@@ -43,6 +45,30 @@ nav ul li a:hover {
   transition: background 1s linear;
 }
 
+/*  PARTEA CU DROPDOWN */ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ---------------- */
 main img {
     position: relative;
     align-content: center;
