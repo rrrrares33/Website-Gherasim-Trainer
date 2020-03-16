@@ -4,6 +4,7 @@ body {
 
 nav {
     display: inline-block;
+    position: relative;
     width: 100%;
     margin: 0;
     vertical-align:top;
@@ -46,32 +47,43 @@ nav ul li a:hover {
 }
 
 /*  PARTEA CU DROPDOWN */ 
-.dropdown {
-  display: inline-block;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 2.1em;
-  background-color: #525151;
-  width: 50%;
-  z-index: 999999;
-}
+ul.menu>li,ul.menu>li>ul.submenu>li{
+		display:block;
+		text-align:center;		
+		list-style-type:none;
+		overflow:hidden;
+	}
 
-.dropdown-content a {
-  color: black;
-  display: inline-block;
-}
-.dropdown-content a:hover {
-    background-color: white;
-}
+ul.menu>li{
+	 float:right;
+	}
+ul.submenu>li{
+	 width:100%;
+	}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
+		display:block;
+		height:	100%;
+		text-decoration:none;
+		color:black;
+	}
 
+ul.menu>li>ul.submenu{
+		position:relative;
+	}
 
+ul.menu>li>ul.submenu>li
+	{
+		border-top:1px solid black;
+	}
+ul.menu>li>ul.submenu>li:last-child
+	{
+		border-bottom:1px solid black;
+	}
+ul.menu>li:hover{
+		overflow:inherit;
+	}
 /* ---------------- */
 
 main img {
