@@ -47,18 +47,16 @@ nav ul li a:hover {
 
 /*  PARTEA CU DROPDOWN */ 
 .dropdown {
-  position: relative;
   display: inline-block;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+  top: 2.1em;
   background-color: #525151;
-  align-self: center;
   width: 50%;
-  overflow: auto;
-  z-index:1 !important;
+  z-index: 999999;
 }
 
 .dropdown-content a {
