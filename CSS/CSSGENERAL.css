@@ -33,16 +33,16 @@ nav ul li {
   display: inline-block;
 }
 
-nav ul li a, div {
+nav ul li a, nav ul li div {
   color:black;
   text-decoration: underline;
-    box-sizing: border-box;
+  box-sizing: border-box;
   padding: 1em;
   background: #525151;
   transition: background 1s linear;
 }
 
-nav ul li a:hover, div:hover {
+nav ul li a:hover, nav ul li div:hover {
   background: #282828;
   color: lightslategray;
   transition: background 1s linear;
