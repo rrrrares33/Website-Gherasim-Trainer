@@ -3,12 +3,9 @@ body {
 }
 
 nav {
-    display: inline-block;
     position: relative;
     width: 100%;
     margin: 0;
-    vertical-align:top;
-    overflow: hidden;
     background-color: #525151; 
 }
 
@@ -32,7 +29,7 @@ nav ul li {
   display: inline-block;
 }
 
-nav ul li a {
+nav ul li a, div {
   color:black;
   text-decoration: underline;
   padding: 1em;
@@ -40,7 +37,7 @@ nav ul li a {
   transition: background 1s linear;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, div:hover {
   background: #282828;
   color: lightslategray;
   transition: background 1s linear;
@@ -57,7 +54,8 @@ ul.menu>li,ul.menu>li>ul.submenu>li{
 
 ul.menu>li{
 	 float:right;
-	}
+     height: 50px;
+}
 ul.submenu>li{
 	 width:100%;
 	}
