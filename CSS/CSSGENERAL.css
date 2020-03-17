@@ -40,14 +40,14 @@ nav ul li a, nav ul li div {
   text-decoration: underline;
   box-sizing: border-box;
   padding: 1em;
-  background: #525151;
+  background: #A0A0A0;
   transition: background 1s linear;
   border-radius: 0.75em;
 }
 
 nav ul li a:hover, nav ul li div:hover {
   background: #282828;
-  color: lightslategray;
+  color: white;
   transition: background 1s linear;
   border-radius: 0.75em;
 }
@@ -98,6 +98,7 @@ main img {
     position: relative;
     align-content: center;
     width: 100%;
+    border-radius: 1em;
 }
 
 main section {
