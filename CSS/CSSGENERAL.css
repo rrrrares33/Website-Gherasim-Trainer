@@ -121,9 +121,13 @@ footer {
     color: darkgray;
 }
 
-footer a, footer u, footer ul{
+footer a, footer u, footer ul, footer p{
     margin-left:7%;
     margin-right:5%;
+}
+
+footer p{
+    text-decoration: underline;
 }
 
 footer a {
@@ -136,4 +140,22 @@ footer hr {
 footer ul li a{
     text-decoration: none;
     margin-left:0%;
+}
+
+@media screen and (min-width:715px) and (max-width:900px){
+    nav {
+        font-size: 0.8em;
+    }
+    ul.menu>li{
+        height:3.7em;
+    }
+}
+
+@media screen and (max-width:715px){
+    nav {
+        font-size: 0.55em;
+    }
+    ul.menu>li{
+        height:3.4em;
+    }
 }

@@ -6,3 +6,25 @@ main p {
     font-size:1em;
     text-indent: 4em;
 }
+
+@media screen and (min-width:600px) and (max-width:1000px){
+    main section {
+        width: 80%;
+    }
+    main section h2 {
+        text-indent: 1.2em;
+    }
+}
+
+@media screen and (max-width:600px){
+    main section {
+        width: 80%;
+    }
+    main section h2 {
+        text-indent: 1.2em;
+        font-size: 0.9em;
+    }
+    main section p{
+        font-size: 0.9em;
+    }
+}
