@@ -113,7 +113,7 @@ section.grid-container>img{
     }
 }
 
-@media screen and (max-width:650px){
+@media screen and (min-width:550px) and (max-width:650px){
     main section{
         width: 90%;
         font-size: 0.9em;
@@ -141,5 +141,37 @@ section.grid-container>img{
     main section.Tabel .tabel{
             text-indent: 0.8em !important;
             font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:550px){
+    main section{
+        width: 90%;
+        font-size: 0.9em;
+    }
+    section.grid-container {
+        display: block;
+    }
+    section.grid-container{
+        padding-top: 2%;
+    }
+    section.grid-container>h2{
+        padding-left: 10%;
+    }
+    section.grid-container>img{
+        width: 50%;
+        height: 50%;
+        padding-left: 25%;
+    }
+    
+    main section.Tabel .tabel{
+        text-align: left !important;
+        text-indent: 1em !important;
+        font-size: 1em;
+    }
+    main section.Tabel .tabel{
+            text-indent: 0.55em !important;
+            font-size: 0.55em;
         }
     }
+}

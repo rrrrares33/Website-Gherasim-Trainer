@@ -151,9 +151,18 @@ footer ul li a{
     }
 }
 
-@media screen and (max-width:715px){
+@media screen and (min-width:550px) and (max-width:715px){
     nav {
         font-size: 0.55em;
+    }
+    ul.menu>li{
+        height:3.4em;
+    }
+}
+
+@media screen and (max-width:550px){
+    nav {
+        font-size: 0.32em;
     }
     ul.menu>li{
         height:3.4em;
