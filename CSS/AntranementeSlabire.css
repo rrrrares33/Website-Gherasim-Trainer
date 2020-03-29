@@ -1,0 +1,248 @@
+main article {
+    margin-top: 1em;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 5px rgba(176,176,176,0.44);
+    border-radius: 0.75em;
+    padding: 3px;
+}
+
+main section#GeneralFacts {
+    padding-top: 1em;
+}
+
+main section article#Def img {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+main section#Ant article#HIIT {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 1em;
+    padding-right: 1em;
+}
+main section#Ant article#HIIT img{
+    align-self: center;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+main section#Ant article#HIIT h2 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+main section#Ant article#HIIT p:nth-of-type(1){
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+main section#Ant article#HIIT p:nth-of-type(2){
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    
+}
+main section#Ant article#HIIT p:nth-of-type(3) {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    color: white;
+}
+main section#Ant article#HIIT p:nth-of-type(4) {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    color: green;
+}
+main section#Ant article#HIIT p:nth-of-type(5) {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    color: red;
+}
+
+main section#Ant article#Cardio{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 1em;
+    padding-right: 1em;
+}
+main section#Ant article#Cardio img {
+    align-self: center;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+main section#Ant article#Cardio h2 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+main section#Ant article#Cardio p:nth-of-type(1){
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+main section#Ant article#Cardio p:nth-of-type(2){
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    
+}
+main section#Ant article#Cardio p:nth-of-type(3) {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: white;
+}
+main section#Ant article#Cardio p:nth-of-type(4) {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: green;
+}
+main section#Ant article#Cardio p:nth-of-type(5) {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: red;
+}
+
+main section#Ant article#Greu {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 1em;
+    padding-right: 1em;
+}
+main section#Ant article#Greu img{
+    align-self: center;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+main section#Ant article#Greu h2 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+main section#Ant article#Greu p:nth-of-type(1){
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+main section#Ant article#Greu p:nth-of-type(2){
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    
+}
+main section#Ant article#Greu p:nth-of-type(3) {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    color: white;
+}
+main section#Ant article#Greu p:nth-of-type(4) {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    color: green;
+}
+main section#Ant article#Greu p:nth-of-type(5) {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    color: red;
+}
+
+@media screen and (min-width:700px) and (max-width:1150px){
+    main section#GeneralFacts, main section#Ant{
+        width:90%;
+    }
+    main section#GeneralFacts article#Def img {
+        width:80%;
+        margin-left:10%;
+        padding-right: 0%;
+        margin-right: 0%;
+    }
+    main section#Ant article#HIIT {
+        display:block;
+    }
+    main section#Ant article#HIIT img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    main section#Ant article#Greu {
+        display: block;
+    }
+    main section#Ant article#Cardio {
+        display: block;
+    }
+    main section#Ant article#Greu img {
+        width: 50%;
+        margin-left: 25%;
+    }
+    main section#Ant article#Cardio img {
+        width: 50%;
+        margin-left: 25%;       
+    }
+}
+@media screen and (max-width:700px){
+    main section#GeneralFacts, main section#Ant{
+        width:95%;
+        font-size: 0.8em;
+    }
+    main section#GeneralFacts article#Def img {
+        width:80%;
+        margin-left:10%;
+        padding-right: 0%;
+        margin-right: 0%;
+    }
+    main section#Ant article#HIIT {
+        display:block;
+        font-size: 0.8em;
+    }
+    main section#Ant article#HIIT img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    main section#Ant article#Greu {
+        display: block;
+        font-size: 0.8em;
+    }
+    main section#Ant article#Cardio {
+        display: block;
+        font-size: 0.8em;
+    }
+    main section#Ant article#Greu img {
+        width: 50%;
+        margin-left: 25%;
+    }
+    main section#Ant article#Cardio img {
+        width: 50%;
+        margin-left: 25%;       
+    }
+}

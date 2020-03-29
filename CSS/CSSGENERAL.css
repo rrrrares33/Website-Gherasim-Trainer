@@ -97,8 +97,29 @@ ul.menu>li:hover{
 main img {
     position: relative;
     align-content: center;
-    width: 100%;
+    width:100%;
     border-radius: 1em;
+}
+main>img{
+    animation-name: imagine;
+    animation-duration: 3s;
+}
+
+@keyframes imagine {
+    from {width:50%;border-radius: 1em;}
+    to {width:100%;}
+}
+
+nav>ul>li{
+    animation: navBar 3s;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+}
+
+
+@keyframes navBar{
+    from{left:-30%;position: relative;}
+    to{left:0%;position: relative;}
 }
 
 main section {
@@ -107,8 +128,15 @@ main section {
     margin-right: auto;
     width: 70%;
 }
+main h2 {
+    color:white;
+}
 
-main section article h2 {
+main section h2 {
+    margin-left:1.5em;
+}
+
+main section h3 {
     margin-left:2em;
 }
 
@@ -142,7 +170,7 @@ footer ul li a{
     margin-left:0%;
 }
 
-@media screen and (min-width:715px) and (max-width:900px){
+@media screen and (min-width:800px) and (max-width:1000px){
     nav {
         font-size: 0.8em;
     }
@@ -151,7 +179,7 @@ footer ul li a{
     }
 }
 
-@media screen and (min-width:550px) and (max-width:715px){
+@media screen and (min-width:550px) and (max-width:800px){
     nav {
         font-size: 0.55em;
     }

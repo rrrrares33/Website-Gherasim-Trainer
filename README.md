@@ -1,2 +1,2 @@
 # gherasimtrainer
-Website for fitness advices and personal coaching online. (language: Romanian)
+Site de prezentare si contact pentru 
