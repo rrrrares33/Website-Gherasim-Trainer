@@ -39,7 +39,7 @@ main section article p {
 
 @media screen and (max-width:600px){
     main section article {
-        width: 80%;
+        width: 90%;
     }
     main section article h2 {
         text-indent: 0.2em;
