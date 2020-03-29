@@ -115,7 +115,7 @@ main section#Ant article#PushPull img{
     align-self: center;
 }
 
-main section#Ant h2{
+main section#Ant>h2{
     text-align: center;
 }
 @media screen and (min-width:800px) and (max-width:1200px)
@@ -143,8 +143,10 @@ main section#Ant h2{
     p {
         font-size: 0.9em !important;
     }
-    h2 {
+    main section#Ant article#PushPull h2, main section#Ant article#UpAndDown h2, main section#GeneralFacts article#Hiper h2 {
         font-size: 1.25em;
+        padding: 0;
+        margin-left: 0;
     }
     main section{
         width:90%;
