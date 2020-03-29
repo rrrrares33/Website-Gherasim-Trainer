@@ -122,12 +122,13 @@ nav>ul>li{
     to{left:0%;position: relative;}
 }
 
-main section {
+main section article {
     color:lightgrey;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
 }
+
 main h2 {
     color:white;
 }
