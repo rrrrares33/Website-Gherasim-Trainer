@@ -169,6 +169,10 @@ footer ul li a{
     text-decoration: none;
     margin-left:0%;
 }
+main a {
+    text-decoration: none;
+    color:skyblue;
+}
 
 @media screen and (min-width:800px) and (max-width:1000px){
     nav {
@@ -190,7 +194,7 @@ footer ul li a{
 
 @media screen and (max-width:550px){
     nav {
-        font-size: 0.32em;
+        font-size: 0.40em;
     }
     ul.menu>li{
         height:3.4em;
