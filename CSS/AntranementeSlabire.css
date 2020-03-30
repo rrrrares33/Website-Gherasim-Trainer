@@ -8,6 +8,9 @@ main article {
 main section#Ant>h2{
     text-align: center;
 }
+main section article h2{
+    padding-left: 1em;
+}
 main section#GeneralFacts {
     padding-top: 1em;
 }
@@ -246,5 +249,8 @@ main section#Ant article#Greu p:nth-of-type(5) {
     main section#Ant article#Cardio img {
         width: 50%;
         margin-left: 25%;       
+    }
+    main section article h2{
+        padding-left: 0em;
     }
 }

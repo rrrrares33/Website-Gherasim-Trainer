@@ -115,6 +115,10 @@ main section#Ant article#PushPull img{
     align-self: center;
 }
 
+main section article h2{
+    padding-left: 1em;
+}
+
 main section#Ant>h2{
     text-align: center;
 }
@@ -165,5 +169,8 @@ main section#Ant>h2{
         width:70%;
         margin-left: 15%;
         margin-right: 15%;
+    }
+    main section article h2{
+        padding-left: 0em;
     }
 }
