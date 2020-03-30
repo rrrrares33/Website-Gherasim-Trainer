@@ -1,0 +1,95 @@
+
+main section#Galerie article img {
+    width:250px!important;
+    height: 300px!important;
+    margin-left: 10% !important;
+    margin-right: 10% ;
+    width:80%;
+}
+
+main section#Galerie article {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+main section#Galerie article p{
+    text-indent: 0 !important;
+    text-align: center;
+}
+
+main section#Galerie article h2:nth-of-type(1){
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+main section#Galerie article img:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+main selection#Galerie article p:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+main section#Galerie article img:nth-of-type(2){
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+main selection#Galerie article p:nth-of-type(2) {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+main section#Galerie article img:nth-of-type(3){
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+main selection#Galerie article p:nth-of-type(3) {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+@media screen and (min-width:810px) and (max-width:1120px){
+    main section article {
+        width: 98%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:810px) {
+    main section article {
+        width: 98%;
+    }
+    main section#Galerie article img {
+        width:140px!important;
+        height:200px!important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%!important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    main section article {
+        width: 98%;
+    }
+    main section#Galerie article h2 {
+        font-size: 1.1em;
+    }
+    main section#Galerie article img {
+        width:90px!important;
+        height:130px!important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%!important;
+    }
+}

@@ -120,6 +120,9 @@ main section#Ant>h2{
 }
 @media screen and (min-width:800px) and (max-width:1200px)
 {
+    main section article {
+        width:90%;
+    }
     main section#Ant article#PushPull{
         display: block;
     }
@@ -140,6 +143,10 @@ main section#Ant>h2{
 
 @media screen and (max-width:800px)
 {
+    
+    main section article {
+        width:98%;
+    }
     p {
         font-size: 0.9em !important;
     }
@@ -148,16 +155,8 @@ main section#Ant>h2{
         padding: 0;
         margin-left: 0;
     }
-    main section{
-        width:90%;
-    }
     main section#Ant article#PushPull{
         display: block;
-    }
-    main section#Ant article#PushPull img{
-        width:70%;
-        margin-left: 15%;
-        margin-right: 15%;
     }
     main section#Ant article#UpAndDown{
         display: block;
