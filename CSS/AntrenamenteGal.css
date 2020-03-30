@@ -5,7 +5,9 @@ main article {
     border-radius: 0.75em;
     padding: 3px;
 }
-
+main section#Galerie>h2{
+    text-align: center;
+}
 main section#Galerie article img {
     width:250px!important;
     height: 300px!important;

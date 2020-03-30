@@ -5,7 +5,9 @@ main article {
     border-radius: 0.75em;
     padding: 3px;
 }
-
+main section#Ant>h2{
+    text-align: center;
+}
 main section#GeneralFacts {
     padding-top: 1em;
 }
