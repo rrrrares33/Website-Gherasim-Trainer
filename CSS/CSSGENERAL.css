@@ -42,14 +42,15 @@ nav ul li a, nav ul li div {
   padding: 1em;
   background: #A0A0A0;
   transition: background 1s linear;
-  border-radius: 0.75em;
+    border-radius:2em;
+  /*border-radius: 0.75em;*/
 }
 
 nav ul li a:hover, nav ul li div:hover {
   background: #282828;
   color: white;
   transition: background 1s linear;
-  border-radius: 0.75em;
+  border-radius: 2em;
 }
 
 /*  PARTEA CU DROPDOWN */ 
@@ -101,6 +102,8 @@ main img {
     border-radius: 1em;
 }
 main>img{
+    border-radius: 4em;
+    padding-bottom: 1em;
     animation-name: imagine;
     animation-duration: 3s;
 }
