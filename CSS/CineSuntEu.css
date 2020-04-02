@@ -49,7 +49,6 @@ section article.grid-container{
   padding: 3px;
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-gap: 2.5% 2.5% 2.5% 2.5%;
   flex-basis: 60%;
 }
 section article.grid-container>h2{
