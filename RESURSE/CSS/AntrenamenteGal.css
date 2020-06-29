@@ -1,0 +1,33 @@
+main div#afisJson {
+    box-sizing: border-box;
+    border:2px;
+    box-shadow: 0px 0px 5px 5px rgba(176,176,176,0.44);
+    border-radius: 0.75em;
+    border-color: grey;
+    margin-left:8%; 
+    margin-right:8%;
+    padding:2%; 
+}
+
+main div#afisTemplate .templ_exercitii{
+    display: inline-block;
+    box-sizing: border-box;
+    border:2px;
+    box-shadow: 0px 0px 5px 5px rgba(176,176,176,0.44);
+    border-radius: 0.75em;
+    border-color: grey;
+    margin:3%;
+    padding:1%; 
+    width:25%;
+}
+
+main div#butoane {
+    text-align: center;
+}
+
+main div#butoane button{
+    display: inline-block;
+    padding:2%;
+    margin:2%;
+}
+    

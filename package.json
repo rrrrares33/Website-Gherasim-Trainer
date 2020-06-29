@@ -1,0 +1,30 @@
+{
+  "name": "beta-site",
+  "version": "1.0.0",
+  "description": "\"Aplicație pentru facultate\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fitness",
+    "sala",
+    "gym",
+    "sanatate",
+    "sport"
+  ],
+  "author": "Gherasim Rareș",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "css": "^2.2.4",
+    "deprecate": "^1.1.1",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.0",
+    "formidable": "^1.2.2",
+    "ico": "^0.3.3",
+    "jpg": "0.0.1"
+  }
+}

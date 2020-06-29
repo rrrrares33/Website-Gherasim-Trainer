@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ro">
+    
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="../IMG/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/CSSGENERAL.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Gherasim Rares">
+        <meta name="description" content="Personal training si diete online">
+        <meta name="keyword" content="Contact, Formular, Informatii suplimentare ">
+        <title>Formular de înregistrare</title>
+    </head>
+    
+    <body style="background-color:black;">
+        <%- include("../fragmente/header") %>
+        
+        <main>
+            <img src="../IMG/justStart.jpg" alt="Imaginea nu s-a putut afișa.">
+            
+    <div class="afisaj" style="color:white; padding-left:30%;">
+        <h1>Inregistrare utilizator</h1>
+		<% if(!locals.rsstatus) { %><!-- verific daca status e definit-->
+		<form method="post" action="/LogIn" class="date"> <!-- daca nu pun action atunci actionul default este pagina curenta -->
+			
+            <p>
+			<label>
+				Username: <input type="text" name="username" value="">
+			</label>
+			</p>
+			
+            <p>
+			<label>
+				Nume: <input type="text" name="nume" value="">
+			</label>
+			</p>
+			
+            <p>
+            <label>
+                Înălțime(cm): <input type="number" name="inaltime" value="0" size="5">
+            </label>
+            </p>
+            
+            <p>
+            <label>
+                Greutate (kg): <input type="text" name="greutate" value="0" size="5">
+            </label>
+            </p>
+            
+            <p>
+            <label>
+                Data Naștere: <input type="date" name="data_nastere">
+            </label>
+            </p>
+            
+            <p>
+			<label>
+				Sporturi practicate(separate prin virgula): 
+                <input type="text" name="sporturi" value="sport1, sport2, sport3" size="30">
+			</label>
+			</p>
+			
+            <p>
+			<label>
+				Parola: <input type="password" name="parola" value="">
+			</label>
+			</p>
+			
+            <p>
+			<label>
+				Reintroduceti parola: <input type="password" name="rparola" value="">
+			</label>
+			</p>
+			
+            <p>
+			<label>
+				Email: <input type="text" name="email" value=""  size="30">
+			</label>
+			</p>
+			
+            <p>		
+			<input type="submit" value="Submit">
+			</p>
+		
+        </form>
+		
+        <% } else if(rsstatus=="ok"){ %>
+			<p>Date introduse</p>
+		<% } else {%>
+			<p>Eroare</p>
+		<% } %>
+        </div>
+            
+    </main>
+        
+        <%- include("../fragmente/footer") %>
+        
+    </body>
+</html>

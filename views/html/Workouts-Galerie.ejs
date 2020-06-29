@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ro">
+    
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="../IMG/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/CSSGENERAL.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/AntrenamenteGal.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Gherasim Rares">
+        <meta name="description" content="Personal training si diete online">
+        <meta name="keyword" content="Menținere,fitness,culturism,antrenamente personale,Mentinere">
+        <script src="../JS/ejs.min.js"></script>
+        <script src="../JS/Galerie.js"></script>
+        <title>Galerie</title>
+    </head>
+    
+    <body style="background-color:black;">
+        <%- include("../fragmente/header") %>
+        
+        <main style="color:white;">
+            <img id ="ImagineP" src="../IMG/55.jpg" alt="Nu s-a putut afișa imaginea">
+            <br>
+            <p>Eveniment tastatura la introducere text:</p>
+            <input type="text" onkeypress="keyFunction()" style="margin-left:10%;">
+            <br>
+            <p><button onclick="clickCounter()" type="button">Apasa-ma!</button></p>
+                <div id="result" style="color:white"></div>
+                <p style="color:white;">Apasa pe buton.</p>
+            <br> 
+            
+            <div class="afis" id="afisJson">
+                
+            </div>
+            <br>
+            <div id="butoane">
+                <button id="toate_exercitiile">Toate exercitiile</button>
+                <button id="exercitii">Exercitii specifice</button>
+                <button id="exercitii_fara_echipament">Exercitii fără echipament</button>	
+                <button id="sortare_dificultate">Sortare după dificultate</button>
+                <button id="sortare_grupe">Sortare după grupa/dificultate/tip complexa</button>
+                <button id="sortare_dificultate_complexa">Sortare dupa dificultate/grupa/id complexa</button>
+                <button id="sortare_tip_complexa">Sortare dupa tip/dificultate/id complexa</button>
+                <button id="adunare_dificultati">Suma totala dificultati</button>
+                <div id="result1"></div>
+            </div>
+            <br>
+            <div class="afis" id="afisTemplate">
+                
+            </div>
+        </main>
+        
+        <%- include("../fragmente/footer") %>
+        
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<header>
+            <div class="login" style="padding-bottom:5px; color:white; padding-left:1em;">
+                <% if(!locals.username) {  %>
+	               <form method="post" action="/login1">
+		              <label style="color:white;">
+                        Username: <input type="text" name="username" value="">
+			          </label>
+                      <label style="color:white;">
+				        Parola: <input type="password" name="parola" value="">
+			          </label>
+			          <input type="submit" value="OK">
+	               </form>
+	           <% }
+	           else { %>
+	           Utilizator logat: <%= locals.username  %>
+	           <a href="/logout" style="color:grey;">Logout</a>
+	           <% } %>
+            </div>
+    
+            <nav class="wrapper">
+                <a id="Logo" href="#">
+                    <img src="../IMG/favicon.ico" alt="Logo-ul nu a putut fi afișat.">
+                </a>
+                <ul class="menu">
+                    <li><a id="LogIn" href="/LogIn">Înregistrare</a></li>
+                    <li><a id="Diets" href="/Diets">Diete</a></li>
+                    <li>
+                        <div>Antrenamente</div>
+                        <ul class="submenu">
+                            <li><a href="/Workouts-Slabit">Slăbit</a></li>
+                            <li><a href="/Workouts-Galerie">Galerie</a></li>
+                            <li><a href="/Workouts-MasaMusculara">Masă Musculară</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="WhoAmI" href="/CineSuntEu">Despre</a></li>
+                    <li><a id="Home" href="/index">Acasă</a></li>
+                </ul>
+            </nav>
+</header>

@@ -1,0 +1,87 @@
+{   
+    "lastId":9,
+    "exercitii": [
+    {   
+        "Id":0,
+        "Nume":"Împins la piept din orizontal",
+        "Dificultate":"4",
+        "Poza":"../IMG/Galerie/Piept/PieptImpinsBara.jpg",
+        "Grupa_lucrată":"Piept",
+        "Echipament_necesar":"DA",
+        "Tip":"Wheights"
+    },
+    {   
+        "Id":1,
+        "Nume":"Flotări la bare paralele.",
+        "Dificultate":"6",
+        "Poza":"../IMG/Galerie/Piept/PieptFlotariParalele.jpg",
+        "Grupa_lucrată":"Piept",
+        "Echipament_necesar":"DA",
+        "Tip":"Calestethics"
+    },
+    {   
+        "Id":2,
+        "Nume":"Impins din inclinat cu gantere.",
+        "Dificultate":"5",
+        "Poza":"../IMG/Galerie/Piept/PieptImpinsInclinatGantere.jpeg",
+        "Grupa_lucrată":"Piept",
+        "Echipament_necesar":"DA",
+        "Tip":"Wheights"
+    },
+    {   
+        "Id":3,
+        "Nume":"Genoflexiuni pentru picioare",
+        "Dificultate":"3",
+        "Poza":"../IMG/Galerie/Picioare/PicioareGenoflexiuni.jpg",
+        "Grupa_lucrată":"Picioare",
+        "Echipament_necesar":"DA",
+        "Tip":"Mix"
+    },
+    {
+        "Id":4,
+        "Nume":"Flexi pentru biceps cu haltera",
+        "Dificultate":"3",
+        "Poza":"../IMG/Galerie/Biceps/FlexiBicepsBara.jpg",
+        "Grupa_lucrată":"Biceps",
+        "Echipament_necesar":"DA",
+        "Tip":"Wheights"
+    },
+    {
+        "Id":5,
+        "Nume":"Flexi pentru biceps la aparat",
+        "Dificultate":"5",
+        "Poza":"../IMG/Galerie/Biceps/FlexiBicepsAparat.jpg",
+        "Grupa_lucrată":"Biceps",
+        "Echipament_necesar":"DA",
+        "Tip":"Wheights"
+    },
+    {
+        "Id":6,
+        "Nume":"Flotari din orizontal",
+        "Dificultate":"2",
+        "Poza":"../IMG/Galerie/Piept/Flotari.jpg",
+        "Grupa_lucrată":"Piept",
+        "Echipament_necesar":"NU",
+        "Tip":"Calesthetics"
+    },
+    {
+        "Id":7,
+        "Nume":"Tractiuni",
+        "Dificultate":"8",
+        "Poza":"../IMG/Galerie/Spate/Tractiuni.png",
+        "Grupa_lucrată":"Spate",
+        "Echipament_necesar":"NU",
+        "Tip":"Calesthetics"
+    },
+    {
+        "Id":8,
+        "Nume":"Extensii cu gantera pentru triceps",
+        "Dificultate":"6",
+        "Poza":"../IMG/Galerie/Triceps/TricepsExtensiiGantera.jpg",
+        "Grupa_lucrată":"Triceps",
+        "Echipament_necesar":"DA",
+        "Tip":"Wheights"
+    }
+]
+}
+                                                                                                                                                                
