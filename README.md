@@ -1,2 +1,2 @@
-# gherasimtrainer
-Site de prezentare si contact pentru 
+# Website for my webdev class.
+HTML + CSS + JavaScript + Node
